@@ -1,0 +1,163 @@
+/* .box.featured_box .owl-slider,
+.box.latest_box .latest_carousel {
+    position: relative;
+} */
+/* .featured_carousel,
+.latest_carousel{ 
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+.box.featured_box  {
+    position: relative;
+}
+
+.owl-slider .owl-wrapper-outer/* ,
+.latest_carousel .owl-wrapper-outer */ {
+  box-shadow: none;
+}
+.owl-slider .owl-carousel .owl-item/* ,
+.latest_carousel .owl-carousel .owl-item */ {
+    padding: 0px 15px;
+}
+.brand .owl-slider .owl-carousel .owl-item {
+    padding: 0;
+}
+
+.owl-slider .owl-controls .owl-buttons .owl-prev,
+.owl-slider .owl-controls .owl-buttons .owl-next{
+	background: url("../images/sprite.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    /* opacity: 0; */
+    top: 20px;
+    font-size: 0;
+    margin-top: 0 !important;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
+#brand-logo .owl-controls .owl-buttons .owl-prev{
+    left: -32px;
+}
+#brand-logo .owl-controls .owl-buttons .owl-next{
+ 	right: -32px;   
+}
+.owl-slider:hover .owl-controls .owl-buttons .owl-prev,
+.owl-slider:hover .owl-controls .owl-buttons .owl-next{
+    opacity: 1;
+}
+ 
+ 
+.blog-main.owl-slider .owl-controls .owl-buttons .owl-prev{
+	left:30px;
+	bottom:40px;
+	top:auto;
+	opacity:1;
+}
+.owl-slider .owl-controls .owl-buttons .owl-prev {
+ 	background-position: -106px -119px !important;
+	right: 35px;
+    left: auto;
+}
+.blog-main.owl-slider .owl-controls .owl-buttons .owl-next{
+	left:70px;
+	bottom:40px;
+	top:auto;
+	opacity:1;
+}
+.owl-slider .owl-controls .owl-buttons .owl-next {
+  	background-position: -149px -119px !important;
+	right: 10px;
+}
+
+.sidebar-block .owl-slider .owl-controls .owl-buttons .owl-prev {
+    right: 25px;
+}
+.sidebar-block .owl-slider .owl-controls .owl-buttons .owl-next {
+    right: 0;
+}
+
+.pro-small-view .owl-slider .owl-controls .owl-buttons .owl-prev,
+.pro-small-view .owl-slider .owl-controls .owl-buttons .owl-next {
+    top: 20px;
+}
+
+.pro-small-view .owl-slider .owl-controls .owl-buttons .owl-prev {
+    left: auto;
+    right: 80px;
+}
+.pro-small-view .owl-slider .owl-controls .owl-buttons .owl-next {
+    left: auto;
+    right: 40px;
+}
+
+.product-additional.owl-slider .owl-controls .owl-buttons .owl-prev  {
+    background-position: -106px -119px !important;
+    left: 0px;
+}
+.product-additional.owl-slider .owl-controls .owl-buttons .owl-next{
+    background-position: -149px -119px !important;
+    right:  0px;
+}
+
+.client-main .owl-slider .owl-controls .owl-buttons .owl-prev {
+    background-position: -106px -119px !important;
+}
+.client-main .owl-slider .owl-controls .owl-buttons .owl-next {
+    background-position: -149px -119px !important;
+}
+
+/* .client-main .owl-slider .owl-controls .owl-buttons .owl-prev:hover {
+    background-position: -149px -172px !important;
+}
+.client-main .owl-slider .owl-controls .owl-buttons .owl-next:hover {
+    background-position: -149px -70px !important;
+} */
+
+.common-home #slideshow0.owl-carousel .owl-buttons .owl-prev {
+    background-position: -106px -3px !important;
+}
+.common-home #slideshow0.owl-carousel .owl-buttons .owl-next {
+    background-position: -176px -3px !important;
+}
+
+.common-home #slideshow0.owl-carousel .owl-buttons .owl-prev:hover {
+    background-position: -129px -3px !important;
+}
+.common-home #slideshow0.owl-carousel .owl-buttons .owl-next:hover {
+    background-position: -153px -3px !important;
+}
+
+.owl-slider .owl-carousel .owl-buttons div i
+/* .latest_carousel .owl-carousel .owl-buttons div i,
+#carousel0 .owl-controls .owl-buttons div i  */{
+	 color: #c2c2c2;
+    font-size: 22px;
+    line-height: 22px;
+    transition: all 0.6s ease 0s;
+	margin:0px;
+}
+.owl-slider .owl-carousel .owl-buttons div/* ,
+.latest_carousel .owl-carousel .owl-buttons div */ {
+  opacity: 1;
+}
+
+/* #carousel0:hover .owl-controls .owl-buttons .owl-prev {
+    left: 0px;
+    opacity: 1;
+} */
+
+/* #carousel0:hover .owl-controls .owl-buttons .owl-next {
+    right: 0px;
+    opacity: 1;
+} */
+
+ 
+ 
